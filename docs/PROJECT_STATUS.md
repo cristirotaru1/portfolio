@@ -110,12 +110,12 @@ Version one will feature Cristian Rotaru, a Software Engineer with experience in
 
 The repository is initialized as a minimal Next.js App Router project with TypeScript, ESLint, npm, and a `src/` directory. Its global styling foundation loads Geist Sans and Geist Mono, defines the approved CSS color and spacing tokens, establishes minimal base styles, and provides a centered page container. The homepage shell contains a header with in-page placeholder navigation, completed Hero, About, Skills, Featured Projects, Education, and Contact sections, and a minimal footer. The Hero presents the approved name, title, and introduction; the About section presents the approved experience, interest, and strengths; Skills presents approved core skills and Intrusion Detection System technologies without proficiency ratings; Featured Projects presents the Intrusion Detection System's approved purpose, value statement, and technologies without unavailable links or assets; Education presents the approved degrees; and Contact provides the approved GitHub, LinkedIn, and email links only. It contains no downloadable CV, contact form, theme toggle, or additional dependencies.
 
-The site is deployed at `https://cristian-rotaru-software-engineer.vercel.app`. The source includes a production SEO foundation that defines one canonical site URL, a crawlable `robots.txt`, and a sitemap containing the homepage; Vercel will serve these routes after the SEO change is pushed and deployed.
+The site is deployed at `https://cristian-rotaru-software-engineer.vercel.app`. The source includes a production SEO foundation that defines one canonical site URL, a crawlable `robots.txt`, and a sitemap containing the homepage; Vercel will serve these routes after the SEO change is pushed and deployed. The root metadata also contains the Google Search Console verification token, which must remain in place after ownership is verified.
 
 The incremental implementation plan is also defined in `docs/CONTENT_INVENTORY.md`. It keeps the site static and introduces components one section at a time.
 
 ## Next step
 
-Verify the deployed SEO routes, then register the site in Google Search Console using a URL-prefix property. Add the Search Console verification token in a small follow-up change, submit the sitemap, and request indexing for the homepage.
+Push and deploy the Google Search Console verification token. After deployment, verify ownership in Search Console, submit the sitemap, and request indexing for the homepage.
 
 After the site is verified in Search Console, monitor indexing before making further SEO changes.

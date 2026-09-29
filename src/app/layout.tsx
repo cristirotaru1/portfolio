@@ -21,6 +21,9 @@ export const metadata: Metadata = {
   alternates: {
     canonical: "/",
   },
+  verification: {
+    google: "pdtqkFKcF_U3Hs0e0qL0nBnP9ryv6nN3JYJvv-L0BIo",
+  },
 };
 
 export default function RootLayout({ children }: LayoutProps<"/">) {
