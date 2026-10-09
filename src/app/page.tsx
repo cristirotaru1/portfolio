@@ -144,6 +144,16 @@ export default function Home() {
                   match a configured signature rule.
                 </p>
               </div>
+
+              <a
+                className="project-repository-link"
+                href="https://github.com/cristirotaru1/hybrid-ids"
+                target="_blank"
+                rel="noreferrer"
+                aria-label="View the Intrusion Detection System repository on GitHub, opens in a new tab"
+              >
+                View repository
+              </a>
             </div>
 
             <div className="project-technologies">

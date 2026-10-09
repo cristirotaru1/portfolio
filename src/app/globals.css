@@ -337,6 +337,23 @@ main section {
   color: var(--color-text-muted);
 }
 
+.project-repository-link {
+  width: fit-content;
+  padding: var(--space-8) var(--space-16);
+  border: 1px solid var(--color-accent);
+  border-radius: var(--radius-card);
+  color: var(--color-accent);
+  font-family: var(--font-geist-mono), monospace;
+  font-size: 0.875rem;
+  text-decoration: none;
+}
+
+.project-repository-link:hover,
+.project-repository-link:focus-visible {
+  border-color: var(--color-accent-hover);
+  color: var(--color-accent-hover);
+}
+
 .project-technologies {
   display: grid;
   gap: var(--space-16);

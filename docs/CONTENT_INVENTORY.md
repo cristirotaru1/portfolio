@@ -22,7 +22,7 @@
 * **Purpose:** A system for system administrators that detects traffic anomalies using both signatures and deviations from learned normal traffic.
 * **Technologies:** Snort, Isolation Forest, Grafana, Floodlight, EVE-NG, Scapy, scikit-learn, Flask
 * **Why feature it:** It aims to reduce Snort rule-configuration workload, centralize alert monitoring and Snort rule, health, and performance management, and detect behavior that may not match a configured signature rule.
-* **GitHub repository:** Not yet available
+* **GitHub repository:** https://github.com/cristirotaru1/hybrid-ids
 * **Live demo:** Not specified
 * **Diagrams/screenshots:** Not yet available
 
@@ -75,7 +75,7 @@
 
 * The initial inventory contains one candidate project.
 * Future projects are intended to expand the portfolio toward four or five projects, particularly in software engineering with networking, machine learning, testing, or DevOps elements.
-* Add the downloadable CV, the Intrusion Detection System's repository and demo links, and project visuals when they are ready to be publicly shared.
+* Add the downloadable CV, the Intrusion Detection System's demo link, and project visuals when they are ready to be publicly shared.
 
 ## Approved first-version content scope
 
@@ -107,7 +107,8 @@ No proficiency ratings will be shown.
 
 * Feature the Intrusion Detection System as the sole initial project.
 * Explain its purpose and list relevant technologies.
-* Do not show a GitHub repository link, live demo, screenshot, diagram, or project detail page until the relevant material is available.
+* Link to the public GitHub repository.
+* Do not show a live demo, screenshot, diagram, or project detail page until the relevant material is available.
 
 ### Education
 
@@ -127,4 +128,4 @@ No proficiency ratings will be shown.
 4. Build one homepage section at a time: Hero, About, Skills, Featured Projects, Education, then Contact.
 5. Introduce one local TypeScript content module when static content is needed across more than one component or page.
 6. Validate responsive layout, keyboard navigation, semantic heading structure, and external links.
-7. Add project detail pages, a CV, visuals, repository/demo links, and a theme toggle only when their content is available.
+7. Add project detail pages, a CV, visuals, a demo link, and a theme toggle only when their content is available.
